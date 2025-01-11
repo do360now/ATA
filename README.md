@@ -1,0 +1,2 @@
+# ATA
+Ai Trading Agent
