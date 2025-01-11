@@ -4,6 +4,10 @@ from dotenv import load_dotenv
 # Load environment variables from the .env file
 load_dotenv()
 
+
+# Get OpenAI API key from environment variables
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 # Get API credentials from environment variables
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
@@ -31,3 +35,5 @@ MIN_TRADE_VOLUME = float(os.getenv("MIN_TRADE_VOLUME"))
 
 # Cooldown period in seconds between trades
 GLOBAL_TRADE_COOLDOWN = int(os.getenv("GLOBAL_TRADE_COOLDOWN"))  # 5 minutes
+
+SLEEP_DURATION = int(os.getenv("SLEEP_DURATION"))  # 15 minutes

@@ -1,0 +1,12 @@
+python-dotenv
+krakenex
+pykrakenapi
+schedule
+websockets
+tenacity
+numpy
+termcolor
+nltk
+requests
+pytest
+openai
